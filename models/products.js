@@ -8,7 +8,7 @@ const productsSchema = new mongoose.Schema({
 
 //Creating a model >> unsing the schema
 //It takes 2 arguments, first is the name of the collection, "Product" will be automatically converted to "products"
-const productsModel = mongoose.model("Product", productsSchema);
+const ProductsModel = mongoose.model("Product", productsSchema);
 
 //Exporting the model to use it in the app
-module.exports = productsModel;
+module.exports = ProductsModel;
